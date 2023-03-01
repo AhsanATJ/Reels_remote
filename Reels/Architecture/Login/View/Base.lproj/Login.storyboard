@@ -69,7 +69,6 @@
                     <connections>
                         <outlet property="EmailText" destination="USS-RP-fcg" id="iXI-kt-TEG"/>
                         <outlet property="PasswordText" destination="A7w-1v-9i6" id="KsS-li-cZa"/>
-                        <outlet property="SignUpBtn" destination="4J9-15-6sR" id="Un9-9c-bhR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
