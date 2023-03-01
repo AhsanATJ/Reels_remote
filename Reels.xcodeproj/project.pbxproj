@@ -37,6 +37,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A31228329AF48CE005754D6 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				5AE06E61299D397000BB3FF6 /* AppDelegate.swift */,
+				5AE06E63299D397000BB3FF6 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		5A31228429AF6488005754D6 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				5A31228529AF64B5005754D6 /* LaunchScreen */,
+				5A31228629AF65B5005754D6 /* LoginScreen */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		5A31228529AF64B5005754D6 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5AE06E6C299D397A00BB3FF6 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		5A31228629AF65B5005754D6 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5AE06E65299D397000BB3FF6 /* ViewController.swift */,
+				5AE06E67299D397000BB3FF6 /* Main.storyboard */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
 		5AE06E55299D397000BB3FF6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +91,9 @@
 		5AE06E60299D397000BB3FF6 /* Reels */ = {
 			isa = PBXGroup;
 			children = (
-				5AE06E61299D397000BB3FF6 /* AppDelegate.swift */,
-				5AE06E63299D397000BB3FF6 /* SceneDelegate.swift */,
-				5AE06E65299D397000BB3FF6 /* ViewController.swift */,
-				5AE06E67299D397000BB3FF6 /* Main.storyboard */,
+				5A31228329AF48CE005754D6 /* AppDelegates */,
+				5A31228429AF6488005754D6 /* Architecture */,
 				5AE06E6A299D397A00BB3FF6 /* Assets.xcassets */,
-				5AE06E6C299D397A00BB3FF6 /* LaunchScreen.storyboard */,
 				5AE06E6F299D397A00BB3FF6 /* Info.plist */,
 			);
 			path = Reels;
