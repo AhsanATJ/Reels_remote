@@ -8,24 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var EmailText: UITextField!
-    
-    @IBOutlet weak var PasswordText: UITextField!
-    
-    
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
